@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laxit solanki</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="main"></div>
+    <div id="details"></div>
+    <!-- navbar  -->
+    <div class="container-fluid sticky-top text-center" id="btnprint">
+        <nav class="navbar navbar-expand-lg navbar-light nav-bg">
+            <div class="container-fluid text-white">
+                <a class="navbar-brand w-25 fs-10 text-white" href="#main">Laxit solanki</a>
+                <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="text-white"><i class="fa-solid fa-ellipsis"></i></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-around" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <!-- <li class="nav-item">
+                            <a class="nav-link text-white" aria-current="page" href="#details">Personal Details</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#contect">Contect</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link text-white" href="#objective">Objective</a>
+                        </li> -->
+                        <!-- <li class="nav-item">
+                            <a class="nav-link text-white" href="#work">Work/Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#skill">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#reference">References</a>
+                        </li> --> 
+                        <li class="nav-item p-8">
+                            <button class="btn text-white border" onclick="print_page()">Download Resume</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="main">
+        <div class="proflie p-0">
+            <div class="proflie-image">
+                <img src="./images/laxit.JPG" alt="" class="proflie-img">
+            </div>
+            <div class="proflie-text">
+                <div>
+                    <span class="text-header">
+                        Laxit Solanki
+                    </span>
+                </div>
+                <p class="proflie-sub-title">
+                    WEB DEVELOPER
+                </p>
+                <p class="proflie-p w-75">
+                    To work as a front-end developer in the field of IT industry With My Professional attitude and to
+                    work in company where My Knowledge and My skills betterment of the company and Myself.
+                </p>
+                <div class="dob_detail" style="color: white;">
+                    <div class="pt-3">
+                        <i class="fa-solid fa-cake-candles"></i> &nbsp; 16 - july - 2001
+                    </div>
+                    <span>
+                        <i class="fa-solid fa-phone "></i> +91 7874247830
+                    </span>
+                    <span class="mp">
+                        <i class="fa-solid fa-envelope " style="margin-left: 10px;"></i> solankilaxit963@gmail.com
+                    </span>
+                    <div class="p-1 ps-0">
+                        <i class="fa-solid fa-location-dot"></i> &nbsp;
+                      Vrundavan ,Kamnath Society, Tibavadi Madhuram busstop, Junagadh 362001 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 2021 - 2024
+        B.C.A.
+        -->
+        <div class="details row w-100 m-0">
+            <div class="eduction col-md-6">
+                <div class="fw-bold fs-2 mt-3 mb-3 ms-0">Education</div>
+                <div style="padding-left: 10px;">
+                    <div class="">
+                        <span class="edu-title">
+                            Graduation
+                        </span>
+                        <div class="edu-sub-title">S.S.S.D.I.I.T Gurukul Junagadh (2020 - 2023)</div>
+                        <p style="font-size: 0.9rem;">
+                            B.C.A <br>
+                            BHAKTA KAVI NARSINH MEHTA UNIVERSITY, Junagadh <br>
+                            CGPA : <b> 7.67 </b>
+                        </p>
+                    </div>
+                </div>
+                <div style="padding-left: 10px;">
+                    <div class="">
+                        <span class="edu-title">
+                            H.S.C
+                        </span>
+                        <div class="edu-sub-title">Alpha High School</div>
+                        <p style="font-size: 0.9rem;">
+                            12<sup>th</sup> Percentile  : <b>53.57%</b>
+                        </p>
+                    </div>
+                </div>
+                <div style="padding-left: 10px;">
+                    <div class="">
+                        <span class="edu-title">
+                            S.S.C
+                        </span>
+                        <div class="edu-sub-title">Alpha High School</div>
+                        <p style="font-size: 0.9rem;">
+                            10<sup>th</sup> Percentile Rank : <b>49.5%</b>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="Experience col-md-6">
+                <div class="fw-bold fs-2 mt-3 mb-3 ms-0">Project</div>
+                <div style="padding-left: 10px;">
+                    <div class="">
+                        <span class="edu-title">
+                            Sem-5
+                        </span>
+                        <div class="edu-sub-title">language</div>
+                        <p style="font-size: 0.9rem;">
+                            <b>
+                                Attendance management System
+                            </b><br>
+                            Project used by College and school Attendance<br>
+                             online usning the <br>
+                            Frontend - HTML,CSS,bootstrap,Javascript<br>
+                            Backend  - PHP,MYSQL.
+                        </p>
+                    </div>
+                </div>
+                <div class="fw-bold fs-2 mt-3 mb-3 ms-0"></div>
+                    <div class="">
+                        <span class="edu-title">
+                            Sem-6
+                        </span>
+                        <div class="edu-sub-title">language</div>
+                        <p style="font-size: 0.9rem;">
+                            <b>
+                                The_Choice_maker
+                            </b><br>
+                            Project used to Create a idea and Help Designer and business,Post and wast Collection of images <br>
+                            Frontend - HTML,CSS,bootstrap,Javascript<br>
+                            Backend  - PHP,MYSQL.
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+
+        <div class="footer row w-100 m-0 ">
+            <div class="col-md-4" style="background-color:#f3f3f3;">
+                <div style="padding: 2rem;">
+                    <h3 class="fw-bold">Skills</h3>
+                    <div style="padding-top: 10px; ">
+                        <img src="./images/html-5.png" alt="" class="m-2" style="width: 3rem;">
+                        <img src="./images/css-3.png" alt="" class="m-1" style="width: 3rem;">
+                        <img src="./images/js.png" alt="" class="m-2" style="width: 2.5rem;">
+                        <img src="./images/php.png" alt="" class="" style="width: 3rem;">
+                        <img src="./images/MySQL_logo_PNG1.png" alt="" class="m-1" style="width: 4rem;">
+                        <img src="./images/c.png" alt="" class="m-2" style="width: 3rem;">
+                        <img src="./images/github.png" alt="" class="m-2" style="width: 2.5rem;">
+                        <img src="./images/bootstrap.png" alt="" class="m-2" style="width: 2.5rem;">
+                        <img src="./images/mui.png" alt="" class="m-2" style="width: 3rem;">
+                    </div>
+                    <h3 class="fw-bold">Graphices</h3>
+                    <div style="padding-top: 10px; ">
+                        <img src="./images/ai.png" alt="" class="m-2" style="width: 3rem;">
+                        <img src="./images/canva.png" alt="" class="m-2" style="width: 3rem;">
+                        <img src="./images/ps.jpg" alt="" class="m-2" style="width: 3rem;">
+                        <img src="./images/edus.jpg" alt="" class="m-2" style="width: 3rem;">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" style="background-color: #f3f3f3;">
+                <div style="padding:80px;">
+                    <h3 class="fw-bold">Language</h3>
+                    <table style="padding-top: 10px; ">
+                        <tr class="fs-5">
+                            <th>Gujarati</th> &nbsp;
+                            <th>&nbsp;&nbsp;
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                            </th>
+                        </tr>
+                        <tr class="fs-5">
+                            <th>Hindi</th> &nbsp;
+                            <th>&nbsp;&nbsp;
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle text-muted"></i>
+                            </th>
+                        </tr>
+                        <tr class="fs-5">
+                            <th>English</th> &nbsp;
+                            <th>&nbsp;&nbsp;
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle text-muted"></i>
+                                <i class="fa-solid fa-circle text-muted"></i>
+                            </th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="col-md-4 m-0 p-4" style="background-color:#f3f3f3;">
+                <div style="padding-right: 5rem; background-color: #f3f3f3;">
+                    <h3 class="fw-bold">Hobbies</h3>
+                    <table style="padding: 8px;">
+                        <tr class="m-2">
+                            <td><img src="./images/user (1).png" alt="" style="width: 3rem;"></td>
+                            <th class="ps-3"> talking with New Peoples</th>
+                        </tr>
+                        <tr class="m-2">
+                            <td class=""><img src="./images/bad.png" alt="" style="width: 3rem;"></td>
+                            <th class="ps-3">badminton</th>
+                        </tr>
+                        <tr class="m-2">
+                            <td class=""><img src="./images/photo.jpg" alt="" style="width: 3rem;"></td>
+                            <th class="ps-3">photoshoot </th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!-- Certificate -->
+        <div class="container-fluid bg-white mt-0">
+            <div class="fw-bold fs-2 ms-4 mb-4">Certificate</div>
+            <div class="d-flex">
+                <div style="padding-left: 10px">
+                    <!-- <div class=""> -->
+                        <span class="fs-5 fw-bold ms-4">
+                            C programming language
+                        </span>
+
+                        <div class="edu-sub-title ms-5 text-dark">
+                            <p style="font-size: 0.9rem;">
+                                C Basics,
+,C Variables and Constants
+,C Data Types
+,C Input and Output
+,C Operators<br>
+,C Control Statements Decision-Making
+,C Functions
+,C Arrays & Strings
+,C Pointers
+                            </p>
+                        </div>
+                    <!-- </div> -->
+                </div>
+                <div style="padding-left: 10px">
+                    <!-- <div class=""> -->
+                        <span class="fs-5 fw-bold ms-4">
+                            Javascript
+                        </span>
+
+                        <div class="edu-sub-title ms-5 text-dark">
+                            <p style="font-size: 0.9rem;">
+                                S.S.S.D.I.I.T Gurukul College, Junagadh. <br>
+                                Contect : 9427696988
+                            </p>
+                        </div>
+                    <!-- </div> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid bg-light">
+            <div class="text-center">
+                <div class="fs-4 fw-bold mb-3">Connect With Me </div>
+                <div class="row">
+                    <div class="col-md-2">
+                        <div>
+                            <img src="./images/github1.png" alt="" class="w-50">
+                            <div class="fs-5 fw-bold">
+                                GitHub
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div>
+                            <img src="./images/wp.png" alt="" class="w-50">
+                            <div class="fs-5 fw-bold">
+                                Whatsapp
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div>
+                            <img src="./images/linkden.png" alt="" class="w-50">
+                            <div class="fs-5 fw-bold">
+                                Linkdin
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div>
+                            <img src="./images/instagram.png" alt="" class="w-50">
+                            <div class="fs-5 fw-bold">
+                                Instagram
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    function print_page() {
+        var ButtonControl = document.getElementById("btnprint");
+        ButtonControl.style.display = "none";
+        window.print();
+        ButtonControl.style.display = "block";
+    }
+</script>
+
+</html>
